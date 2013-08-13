@@ -49,6 +49,12 @@ group :test do
   # Use rspec instead of test::unit
   gem 'rspec-rails'
 
+  # Easier to test activerecord attributes and relations
+  gem 'shoulda-matchers'
+
+  # Pleasant domain-specific language for integration testing
+  gem 'capybara'
+
   # Faster test runs by pre-loading rails
   gem 'zeus'
 end
