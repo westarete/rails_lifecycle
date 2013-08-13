@@ -43,3 +43,11 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :test do
+  # Use rspec instead of test::unit
+  gem 'rspec-rails'
+
+  # Faster test runs by pre-loading rails
+  gem 'zeus'
+end
