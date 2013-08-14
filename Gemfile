@@ -38,7 +38,7 @@ group :development do
   # Nicer debugging/inspection environment.
   gem 'better_errors'
   gem 'binding_of_caller'
-  get 'awesome_print'
+  gem 'awesome_print'
 
 end
 
