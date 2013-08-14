@@ -49,6 +49,12 @@ group :test do
   # Use rspec instead of test::unit
   gem 'rspec-rails'
 
+  # Use cucumber for integration tests
+  gem 'cucumber-rails', require: false
+
+  # Ensure an empty database between each cucumber test run
+  gem 'database_cleaner'
+
   # Easier to test activerecord attributes and relations
   gem 'shoulda-matchers'
 
