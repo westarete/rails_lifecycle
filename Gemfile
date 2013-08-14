@@ -33,6 +33,15 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+
+  # Nicer debugging/inspection environment.
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  get 'awesome_print'
+
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
